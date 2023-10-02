@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js --exec babel-node"
   },
-  "author": "Eric Donnelly",
+  "author": "Group 12 - Eric Donnelly, Indu Pandey, Hitesh Moudgil, Jason Chan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
