@@ -17,6 +17,4 @@ app.get("/", (req, res) =>
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
 routes(app);
 
-mongoose.connect(
-  "mongodb+srv://eric:wGDzixGMGhsEMywq@cluster0.hobacjq.mongodb.net/courses"
-);
+mongoose.connect(process.env.DB_URL);
